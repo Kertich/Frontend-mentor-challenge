@@ -8,13 +8,15 @@
     "two three four"
     "five six seven";
 }
-.navBar{
+
+.navBar--list{
     display:flex;
-    justify-content: flex-end;
-    
+    flex-direction: row;
+     justify-content: flex-end;
 }
 .navBar li {
     margin-right: 20px;
+    list-style: none;
 }
 
 .one{

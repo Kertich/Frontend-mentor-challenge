@@ -30,9 +30,17 @@
 }
 .four{
     grid-area: four;
+    background-color: black;
+    border-radius: 0.5px;
+    color: white;
+    padding: 10px;
+}
+.four h2{
+    color: chocolate;
 }
 .five{
     grid-area: five;
+    
 }
 .six{
     grid-area: six;

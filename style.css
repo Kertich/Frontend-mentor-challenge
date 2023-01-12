@@ -1,0 +1,45 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    grid-template-areas:
+     "one one four"
+    "two three four"
+    "five six seven";
+}
+.navBar{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.navBar li {
+    margin-right: 20px;
+}
+
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+} 
+
+
+
+
+
